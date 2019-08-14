@@ -1,6 +1,6 @@
 import React from "react";
 import Table from "./Table";
-/*Add import statement here for step 2*/
+/*Add import statement here*/
 
 class App extends React.Component {
   constructor(props) {
@@ -48,7 +48,7 @@ class App extends React.Component {
   render() {
     let tabChoice = <div />;
 
-    /*Uncomment below for step 2*/
+    /*Uncomment below to render assignments*/
     /*if (this.state.buttonClicked === "assignments") {
       tabChoice = (
         <List
@@ -60,7 +60,7 @@ class App extends React.Component {
       );
     }*/
 
-    /* Change below for step 4*/
+    /* Change below to render students*/
 
     /*if (this.state.buttonClicked === "students") {
       tabChoice = (
@@ -73,7 +73,7 @@ class App extends React.Component {
       );
     }*/
 
-    /* Uncomment lines below for step 3*/
+    /* Uncomment lines below to render grades*/
     /*if (this.state.buttonClicked === "grades") {
       tabChoice = (
         <Table
@@ -89,7 +89,7 @@ class App extends React.Component {
       <div>
         <div className="Box Box--spacious f4">
           <div className="Box-header">
-            {/* Replace this line with the proper header code for Step 1 */}
+            {/* Replace this line with the proper header code */}
           </div>
         </div>
         <nav className="UnderlineNav d-flex flex-justify-center">
